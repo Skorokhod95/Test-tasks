@@ -17,7 +17,7 @@
 
 
 
-<img src="https://github.com/uulm-mrm/semantic_spray_dataset/blob/main/img/teaser_0.gif" width="40" height="40" />
+<img src="https://github.com/uulm-mrm/semantic_spray_dataset/blob/main/img/teaser_0.gif" width="100" height="100" />
 
 ### Шаги выполнения задачи
 
