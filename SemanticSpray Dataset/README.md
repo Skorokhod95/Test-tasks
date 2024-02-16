@@ -87,7 +87,7 @@ Related_code.ipynb - содержит всю проделанную работу
 
 PointNet.py - файл с применяемой моделью PointNet.
 
-best.weights.h5 - веса для модели PointNet с получившимся результатом.
+[best.weights.h5](https://drive.google.com/file/d/1QT0KJ_Qc7AonhVaVxMSViV-U1g1XkJRu/view?usp=sharing) - веса для модели PointNet с получившимся результатом.
 
 testing.py - файл разметки поданых данных формата .bin. Необходимо иметь
 папку test с файлами .bin, которые необходимо разметить. Внутри папки
