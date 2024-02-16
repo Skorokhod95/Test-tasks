@@ -23,7 +23,7 @@
 
 1.  Преобразование датасета:
 
-Избрана меньшая выборка из 2048 точек, поскольку использование 30000
+Избрана меньшая выборка из 500 точек, поскольку использование 30000
 точек для около 1200 примеров кажется избыточным, а также приводит к
 слишком большому разнообразию количества точек в каждом облаке.
 
@@ -47,7 +47,13 @@
 2.  [Point cloud segmentation with
     PointNet](https://keras.io/examples/vision/pointnet_segmentation/)
 
-### Какие результаты получились
+### Результаты
+1. Point Net на 500 точках 10 эпох.
+   ![image](https://github.com/Skorokhod95/Test-tasks/blob/main/SemanticSpray%20Dataset/files/start.png)
+2. Point Net на 500 точках 10 эпох с взвешиванием классов.
+   ![image](https://github.com/Skorokhod95/Test-tasks/blob/main/SemanticSpray%20Dataset/files/weighted.png)
+3. Point Net на 500 точках 10 эпох с измененной loss функцией (добавлена часть с рассчетом "энергии").
+   ![image](https://github.com/Skorokhod95/Test-tasks/blob/main/SemanticSpray%20Dataset/files/energy.png)
 
 ### Направления исследования
 
