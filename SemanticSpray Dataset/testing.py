@@ -105,7 +105,7 @@ class DataGenerator(keras.utils.Sequence):
             np.random.shuffle(self.indexes)
 
 def main():
-    os.chdir('C:\\Users\\denet\\OneDrive\\Документы\\Alina\\Поиск работы\\Тестовое ФГУП НАМИ\\Code')
+    os.chdir()
     data, names = get_data(os.getcwd()+'/test')
     dg = DataGenerator(data, [np.array([0] * len(i)) for i in data], npoints=500)
 
